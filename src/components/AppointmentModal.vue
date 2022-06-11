@@ -319,7 +319,7 @@ export default {
       margin-top: 50px;
       display: flex;
       justify-content: space-between;
-
+      padding: 0 17px;
       button {
         padding: 10px 20px;
         border: 1px solid #ddd;

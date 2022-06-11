@@ -1,7 +1,7 @@
 <template>
   <div class="base-input-field">
     <input
-      class="form-control"
+      class=""
       :type="type"
       name="input"
       id="input"
@@ -75,6 +75,7 @@ export default {
     inset: 0;
     display: flex;
     align-items: center;
+    margin-bottom: 0;
     padding: 0px 18px;
     box-sizing: border-box;
     transition: all 0.1s ease-in-out;

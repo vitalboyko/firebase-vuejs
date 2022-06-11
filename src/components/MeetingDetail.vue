@@ -175,6 +175,10 @@ export default {
         visibility: visible;
         }
     }
-    }
+  }
+  .collapse:not(.show) {
+    display: block !important;
+  }
+
 }
 </style>
